@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Game Review App</string>
+    <string name="share">Share</string>
+    <string name="website">Website</string>
+    <string name="download">Download</string>
+    <string name="about_game">About Game</string>
+    <string name="game_logo">Game Logo</string>
+    <string name="detail_dummy">\t\tEvery day, millions of players worldwide enter battle as one of
+        over a hundred Dota heroes. And no matter if it\'s their 10th hour of play or 1,000th,
+        there\'s always something new to discover. With regular updates that ensure a constant
+        evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.</string>
+    <string name="about_me">About Me</string>
+    <string name="dota">Dota 2</string>
+
+    <!-- Detail Activity String -->
+    <string name="my_review">My Review</string>
+    <string name="spec">Spesifikasi</string>
+    <string name="minimum">Minimum</string>
+    <string name="detail_game_dummy">
+        \t\tUntuk pecinta Moba saya merekomendasikan Dota 2, dikarenakan kemungkinan yang tidak terbatas
+        yang dapat terjadi di dalam permainan Dota 2. Saya sebagai seseorang yang mudah bosan dengan
+        pengulangan/repetition akan sebuah permainan menemukan hal tersebut tidak mungkin terjadi
+        didalam permainan dota yang telah saya mainkan sejak tahun 2018. Hal tersebut dikarenakan
+        game Dota menawarkan 121 hero yang dapat digunakan dalam permainan tersebut yang akan
+        digunakan oleh 10 pemain hanya dengan itu saja Dota sudah memberikan 14.044.249.615.291.896
+        kemungkinan hanya untuk tahap pemilihan hero saja.\n
+        \t\tNamun tidak hanya itu saja Dota juga menawarkan 208 item yang dapat digunakan oleh tiap
+        hero dimana item tersebut memiliki kelebihan masing – masing yang dapat membantu hero anda
+        untuk memperkuat hero anda maupun mengeksploitasi kelemahan hero musuh anda agar anda dapat
+        menang bertarung melawan hero tersebut sehingga hal tersebut juga menawarkan jutaan
+        kemungkinan yang dapat anda lakukan dalam permainan tersebut yang menjauh kan anda dari kata
+        bosan.\n
+        \t\tTidak hanya itu saja dikarenakan Dota 2 merupakan game multiplayer yang berarti anda melawan
+        manusia lain dimana kemungkinan permainan untuk seorang pemain saja bisa mencapai jutaan apa
+        lagi bila anda bermain bersama empat pemain lain dan melawan lima pemain lain? Apakah hal
+        tersebut memberikan anda bahkan sekelibat kata bosan? Saya pikir tidak, sehingga hanya
+        dengan variasi yang disediakan secara umum oleh permainan tersebut saja saya sudah dapat
+        merekomendasikan game Dota 2.
+    </string>
+    <string name="spec_os">Windows 7 or newer</string>
+    <string name="spec_cpu">Dual core from Intel or AMD at 2.8 GHz</string>
+    <string name="spec_ram">4 GB RAM</string>
+    <string name="spec_gpu">nVidia GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600</string>
+    <string name="spec_directx">Version 9.0c</string>
+    <string name="spec_network">Broadband Internet connection</string>
+    <string name="spec_storage">15 GB available space</string>
+    <string name="spec_sound_card">DirectX Compatible</string>
+    <string name="banner_game">Banner Game</string>
+    <string name="processor">Processor</string>
+    <string name="os">OS</string>
+    <string name="memory">Memory</string>
+    <string name="graphic">Graphic</string>
+    <string name="directx">DirectX</string>
+    <string name="network">Network</string>
+    <string name="storage">Storage</string>
+    <string name="sound_card">Sound Card</string>
+    <string name="instagram">Instagram</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="name">Sulaiman</string>
+    <string name="sulaimaniman6_gmail_com">sulaimaniman6@gmail.com</string>
+    <string name="social_media">Social Media</string>
+    <string name="develop_by">Developed by</string>
+    <string name="find_the_best_game_for_you">Find The Best Game For You</string>
+</resources>

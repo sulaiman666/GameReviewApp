@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo_900_light"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/detail_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/banner_game"
+                tools:src="@drawable/banner_dota2" />
+
+            <TextView
+                android:id="@+id/tv_detail_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_banner"
+                android:background="#4D000000"
+                android:gravity="center"
+                android:textColor="@color/text_primary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="@string/dota" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TextContent.Detail.Margin.SubJudul"
+            android:text="@string/my_review" />
+
+        <TextView
+            android:id="@+id/tv_detail_detail_game"
+            style="@style/TextContent.Detail.Margin.Text"
+            tools:text="@string/detail_game_dummy" />
+
+        <TextView
+            style="@style/TextContent.Detail.Margin.SubJudul"
+            android:text="@string/about_game" />
+
+        <TextView
+            android:id="@+id/tv_detail_about_game"
+            style="@style/TextContent.Detail.Margin.Text"
+            tools:text="@string/detail_dummy" />
+
+        <TextView
+            style="@style/TextContent.Detail.Margin.SubJudul"
+            android:text="@string/spec" />
+
+        <TextView
+            style="@style/TextContent.Detail.Margin"
+            android:layout_marginBottom="8dp"
+            android:text="@string/minimum"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.Detail.Margin.Text.Spec"
+                    android:text="@string/os" />
+
+                <TextView
+                    android:id="@+id/tv_detail_spec_os"
+                    style="@style/TextContent.Detail.Margin.Text.Spec.Value"
+                    tools:text="@string/spec_os" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.Detail.Margin.Text.Spec"
+                    android:text="@string/processor" />
+
+                <TextView
+                    android:id="@+id/tv_detail_spec_cpu"
+                    style="@style/TextContent.Detail.Margin.Text.Spec.Value"
+                    tools:text="@string/spec_cpu" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.Detail.Margin.Text.Spec"
+                    android:text="@string/memory" />
+
+                <TextView
+                    android:id="@+id/tv_detail_spec_memory"
+                    style="@style/TextContent.Detail.Margin.Text.Spec.Value"
+                    tools:text="@string/spec_ram" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.Detail.Margin.Text.Spec"
+                    android:text="@string/graphic" />
+
+                <TextView
+                    android:id="@+id/tv_detail_spec_gpu"
+                    style="@style/TextContent.Detail.Margin.Text.Spec.Value"
+                    tools:text="@string/spec_gpu" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.Detail.Margin.Text.Spec"
+                    android:text="@string/directx" />
+
+                <TextView
+                    android:id="@+id/tv_detail_spec_directx"
+                    style="@style/TextContent.Detail.Margin.Text.Spec.Value"
+                    tools:text="@string/spec_directx" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.Detail.Margin.Text.Spec"
+                    android:text="@string/network" />
+
+                <TextView
+                    android:id="@+id/tv_detail_spec_network"
+                    style="@style/TextContent.Detail.Margin.Text.Spec.Value"
+                    tools:text="@string/spec_network" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.Detail.Margin.Text.Spec"
+                    android:text="@string/storage" />
+
+                <TextView
+                    android:id="@+id/tv_detail_spec_storage"
+                    style="@style/TextContent.Detail.Margin.Text.Spec.Value"
+                    tools:text="@string/spec_storage" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextContent.Detail.Margin.Text.Spec"
+                    android:text="@string/sound_card" />
+
+                <TextView
+                    android:id="@+id/tv_detail_spec_sound_card"
+                    style="@style/TextContent.Content.Spec.Value"
+                    tools:text="@string/spec_sound_card" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_detail_share"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/share" />
+
+            <Button
+                android:id="@+id/btn_detail_download"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/download" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
